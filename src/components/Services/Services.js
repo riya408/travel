@@ -38,7 +38,8 @@ export default function Services() {
         <div className="Section">
           {data.map((service, index) => {
             return (
-              <div className="service">
+              
+              <div className="service" key={index}>
                 <div className="icon">
                   <img src={service.icon} alt="" />
                 </div>

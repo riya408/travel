@@ -74,20 +74,22 @@ export default function Recommend() {
         <ul>
           {packages.map((pkg, index) => {
             return (
-              <li
+              <div key={index}>
+              <li 
                 className={active === index + 1 ? "active" : ""}
                 onClick={() => setActive(index + 1)}
               >
                 {pkg}
               </li>
+              </div>
             );
           })}
         </ul>
       </div>
       <div className="destinations">
-        {data.map((destination) => {
+        {data.map((destination,index) => {
           return (
-            <div className="destination">
+            <div className="destination" key={index}>
               <img src={destination.image} alt="" />
               <h3>{destination.title}</h3>
               <p>{destination.subTitle}</p>
