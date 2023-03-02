@@ -1,0 +1,42 @@
+.thankyou{
+    position: relative;
+    
+    height: 50%;
+    width: 100%;
+    margin: auto;
+    padding: 40px;
+    overflow: hidden;
+    background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-abstract-watercolor-background_23-2149005675.jpg?w=996&t=st=1677567257~exp=1677567857~hmac=4e8b83cd41c58dba75383621dd63276f4ccf5c598c62207ec648b673ce1be1cb');
+    background-size:cover ;
+    border-radius: 5px;
+    z-index: 20;
+}
+
+
+
+h1 {
+    margin-top: 20rem;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+    color:black
+  }
+  
+  p {
+    color:black;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  .btntohome{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    margin-left: 45rem;
+    margin-top: 2rem;
+  }
